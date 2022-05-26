@@ -1,0 +1,24 @@
+1. Your country has issued a law that forbids anyone under the age of 18 to vote. You have been asked to write an application that (i) accepts the firstname, lastname, and age of voter, (ii) Determines if the citizen is eligible to vote or not.
+
+2. You have been given the ages of students in a class as the following:
+12, 12, 8, 9, 9, 10, 6, 11.
+
+Your task is write a program to:
+i.	Find the average age of the students in the class.
+ii.	Determine which age is the highest.
+iii. Determine which age is the lowest. 
+
+3. Write a function that takes a list value as an argument and returns a string with all the items separated by a comma and a space, with and inserted before the last item. For example, we have a list of names as defined here – names = [‘John’, ‘James’, ‘Betty’, ‘Bobby’]. Passing the names list to the function would return ‘John, James, Betty, and Bobby. But your function should be able to work with any list value passed to it.
+Hint: The function is defined as follow:
+
+def sep_with_comma(my_list):
+       # Your code goes here…
+
+sep_with_comma(original_list)
+
+4. Write a function that takes a list value and outputs each word in the list and their respective lengths. For example, 
+utensils = ['spoon', 'fork']
+Output:
+Spoon 5
+Fork 4
+Your function should be able to work with any list value passed to it.
