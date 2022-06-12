@@ -1,0 +1,29 @@
+1. Write a Python program that accepts a filename from the user and print the extension of that file name
+Sample filename : myfile.txt
+Output : txt
+
+
+2. Building on the above exercise, you're to write a function that accepts the file name and prints out both file extension and the type of file. The following are the available file extensions
+
+txt - Text Files
+java - Java File
+py - Python
+c - C
+js - JavaScript
+cs - Csharp
+doc - Document
+xlsx - Microsoft Excel
+
+
+ If the file extension doesn't exist above, return a message that tells the user that the file type isn't recognized!
+
+ 3. Consider the following grading system below:
+
+70.00 - 100.00	A
+60.00 - 69.00	AB
+50.00 - 59.00	B
+45.00 - 49.00	BC
+40.00 - 44.00	C
+0.00 - 39.00	F
+
+Write a program that accepts a score and grades a student.
