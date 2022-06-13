@@ -17,7 +17,11 @@ xlsx - Microsoft Excel
 
  If the file extension doesn't exist above, return a message that tells the user that the file type isn't recognized!
 
- 3. Consider the following grading system below:
+3. Building on exercises 1 and 2, you are to get both file name and the file extension printed.
+input: myjava.c
+output: The file name is myjava and the extension is c
+
+4. Consider the following grading system below:
 
 70.00 - 100.00	A
 60.00 - 69.00	AB
@@ -27,5 +31,3 @@ xlsx - Microsoft Excel
 0.00 - 39.00	F
 
 Write a program that accepts a score and grades a student.
-
-4. 
