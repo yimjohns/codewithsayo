@@ -1,0 +1,44 @@
+1. Create a mini health chat system for COVID tracking. This app allows the user to determine if he is prone to COVID or not as well as get any other useful information. Sample interaction is given below:
+
+Scenario 1
+
+App: May I know your name please?
+User: johnson
+App: Welcome Johnson, how may I help you today? 
+        Enter 1 if you wish to get a list of approved COVID vaccines 
+        Enter 2 if you wish to determine your proneness to COVID
+        Enter 0 to quit
+User: I don't want anything
+App: Sorry, Johnson, but I don't understand what you just typed in. If you don't mind tyring again.
+        Enter 1 if you wish to get a list of approved COVID vaccines 
+        Enter 2 if you wish to determine your proneness to COVID
+        Enter 0 to quit
+User: 0
+App: Thank you for your time, Johnson. Do have a great day!
+
+****************************************************************************
+Scenario 2
+
+App: Hello, may I know your name please?
+User: bob
+App: Welcome Bob, glad to have you around today. How can I help you? 
+        Enter 1 if you wish to get a list of approved COVID vaccines 
+        Enter 2 if you wish to determine your proneness to COVID
+        Enter 0 to quit
+User: 1
+App: As of today, the approved list of COVID vaccines are (list them here...)
+Would you like to do anything else? Press Y for Yes or N for No
+User: 0
+App: Please, enter a valid response - Y for Yes or N for No
+User: Y
+App: Thank you for staying with us. What more would you like us to do for you?
+    Enter 1 if you wish to get a list of approved COVID vaccines 
+    Enter 2 if you wish to determine your proneness to COVID
+    Enter 0 to quit
+User: 2
+App: Hi, Bob. Our health system isn't so robust yet but if I may ask - Have you recently had contact with someone infected with COVID? Press Y for Yes or N for No.
+User: Y
+App: So sorry to hear about that, but you are prone to the COVID. Kindly reach out to any health facility available around you. Thank you.
+Is there anything else? Y for Yes, N for No.
+User: N
+App: Thank you for your time, Bob. Do have a wonderful day ahead of you!
