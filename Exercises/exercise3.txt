@@ -1,6 +1,8 @@
 1. Create a mini health chat system for COVID tracking. This app allows the user to determine if he is prone to COVID or not as well as get any other useful information. Sample interaction is given below:
 
+****************************************************************************
 Scenario 1
+****************************************************************************
 
 App: May I know your name please?
 User: johnson
@@ -18,6 +20,7 @@ App: Thank you for your time, Johnson. Do have a great day!
 
 ****************************************************************************
 Scenario 2
+****************************************************************************
 
 App: Hello, may I know your name please?
 User: bob
