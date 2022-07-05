@@ -1,0 +1,1 @@
+Use match when comparing the same value to several constants, or when checking for specific types or attributes.
