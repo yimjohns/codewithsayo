@@ -10,6 +10,11 @@ def multiply(number1, number2):
 def divide(number1, number2):
     ...
 
+letter = 'a'
+
+if letter in {'a', 'e', 'i'}:
+    print("Found")
+
 def subtract(number1, number2):
     pass # I will implement this later
 
