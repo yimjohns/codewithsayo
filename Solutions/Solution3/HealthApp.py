@@ -47,7 +47,7 @@ def get_input(user):
     while True:
         try:
             choice = int(input())
-            if choice in choices.keys() and choice != 0:
+            if choice in choices and choice != 0:
                 action = choices.get(choice)
                 action()
                 continue_app(user)
