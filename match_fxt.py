@@ -1,6 +1,6 @@
 def main():
     filename = input("Enter the file name: ")
-    f_ext = get_extension(filename)
+    f_ext = get_extension(filename) # txt
     vowels = ['a', 'e', 'i', 'o', 'u']
     output = "The file is " + ("an" if f_ext[0].lower() in vowels else "a")
     print(f"{output} {f_ext} file")
